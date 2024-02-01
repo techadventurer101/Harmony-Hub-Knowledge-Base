@@ -1,0 +1,103 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to bottom right, #f1c40f, #ffffff); /* Gradient background from yellow to white */
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#question-container {
+  background-color: #3498db; /* New color for the question box */
+  color: #fff; /* Text color for the question box */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+#answers-container {
+  display: grid;
+  gap: 10px;
+}
+
+button {
+  background-color: #3498db; /* Light yellow background color */
+  color: #fff; /* Black text color */
+  padding: 10px;
+  border: 5px solid #fff; /* Grey thick outline */
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ffd700; /* Lighter yellow on hover */
+}
+
+button.correct {
+  background-color: #2ecc71;
+}
+
+button.incorrect {
+  background-color: #e74c3c;
+}
+
+#next-btn, #restart-btn, #new-game-btn {
+  background-color:#efe9e1;
+  color: #052c66;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#next-btn:hover, #restart-btn:hover, #new-game-btn:hover {
+  background-color: #27ae60;
+}
+
+.correct-answer {
+  color: #2ecc71;
+  font-weight: bold;
+}
+.correct-answer-box {
+  background-color: #2ecc71;
+  color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+.incorrect-answer-box {
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+.title-text {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#header-container {
+  background-color: #fff;
+  color: #7001FB;
+  text-align: center;
+  padding: 15px;
+  border-radius: 8px;
+  border: 5px solid #7001FB;
+  margin-bottom: 20px;
+}
+
+.header-text {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.description-text {
+  font-size: 16px;
+}
