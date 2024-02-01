@@ -17,7 +17,7 @@ const questions = [
    {
     question: "The word 'Ayubowan' is traditionally used in which way?",
     answers: ["Yes", "Thanks", "Greeting", "Congratulating"],
-    correctAnswer: "Kavum"
+    correctAnswer: "Greeting"
   },
   {
     question: "Which Sinhala festival involves the lighting of oil lamps?",
